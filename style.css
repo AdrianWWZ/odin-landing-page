@@ -9,6 +9,74 @@
 body {
   display: flex;
   flex-direction: column;
-  flex: 1;
   min-height: 100vh;
+  font-family: "Roboto";
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.left-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.right-header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.right-header ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main-1 {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 8rem 4rem;
+  gap: 2rem;
+}
+
+.left-main-1 {
+  width: 29rem;
+}
+
+.left-main-1 h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.left-main-1 p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.left-main-1 button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 600;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.right-main-1 img {
+  width: 32rem;
+  height: 14rem;
 }
