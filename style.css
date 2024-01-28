@@ -37,3 +37,44 @@ body {
   color: #e5e7eb;
   text-decoration: none;
 }
+
+.main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 600px;
+  gap: 150px;
+}
+
+.left-main-1 {
+  width: 450px;
+  height: 50%;
+}
+
+.left-main-1 h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.left-main-1 button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.left-main-1 p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main-1 img {
+  width: 600px;
+  height: 50%;
+}
